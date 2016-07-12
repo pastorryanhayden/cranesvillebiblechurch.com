@@ -1,8 +1,9 @@
 #!/bin/bash
 
-path="/home/sitesforchurch/github/master-theme/";
-git_path="https://github.com/SitesForChurch/master-theme.git";
+path="/home/sitesforchurch/github/cranesvillebiblechurch.com/";
+git_path="https://github.com/pastorryanhayden/cranesvillebiblechurch.com.git";
 need_build=false;
+#!/usr/bin/env bash
 
 echo "Navigate to web root: $path";
 
