@@ -3,6 +3,7 @@
 path="/Users/ryanhayden/github/cranesvillebiblechurch.com/";
 git_path="git@github.com:pastorryanhayden/cranesvillebiblechurch.com.git";
 need_build=false;
+#!/usr/bin/env bash
 
 echo "Navigate to web root: $path";
 
