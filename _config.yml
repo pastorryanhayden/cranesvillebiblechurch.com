@@ -73,10 +73,7 @@ page_gen:
     template: 'event'
     name: 'event_name'
     dir: 'events'
-  - data: 'abouts'
-    template: 'about'
-    name: 'title'
-    dir: 'about-us'
+
 
 ftp_host: 'biblebaptistmattoon.org'
 ftp_dir: 'cranesvillebiblechurch.com/'
