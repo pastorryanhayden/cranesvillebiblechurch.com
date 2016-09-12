@@ -51,30 +51,8 @@ We strive to faithfully teach the Bible in a way that engages, instructs, and ch
         {% markdown welcome-3.md %}
         </div><!-- /text -->
         <div id="map">
-            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.503085819645!2d-80.34740588416118!3d41.903542679220216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8832694a1c277181%3A0xdc78b3aab277a862!2sCranesville+Bible+Church!5e0!3m2!1sen!2sus!4v1473247283281" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div><!-- /map -->
-        <script>
-          function initMap() {
-            var mapDiv = document.getElementById('map');
-            var myLatLng = { lat: {{site.map_lat}}, lng: {{site.map_long}}  };
-            var churchPos = { lat: {{site.map_lat}}, lng: {{site.map_long}} };
-            var map = new google.maps.Map(mapDiv, {
-          center: myLatLng,
-          zoom: 15
-        });
-        var image = 'https://dl.dropboxusercontent.com/u/47159282/churchIcon.png';
-        var marker = new google.maps.Marker({
-            position: churchPos,
-            map: map,
-            title: 'Cranesville Bible Church',
-            icon: image
-        });
-        // To add the marker to the map, call setMap();
-        marker.setMap(map);
-      }
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
-        async defer></script>
         </div><!-- /content -->
     </div><!-- /welcomeLocation -->
 
