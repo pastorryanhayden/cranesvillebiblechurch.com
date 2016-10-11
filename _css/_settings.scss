@@ -29,8 +29,10 @@ $dark-gray: #333533;
 $black: #0e0b08;
 $white: #fefefe;
 $body-background: $white;
-$body-font-color: $black;
-
+$body-font-color: $black; 
+$main-color: $primary-color;
+$subtle-color: $primary-color;
+$bold-color: $primary-color;
 
 
 // UNLESS YOU KNOW WHAT YOU ARE DOING LEAVE THE REST OF THIS STUFF ALONE!
@@ -67,7 +69,7 @@ $breakpoint-classes: (small medium large);
 // -----------
 
 $grid-row-width: $global-width;
-$grid-column-count: 12;
+$grid-column-count: 12; 
 $grid-column-gutter: (
   small: 20px,
   medium: 30px,
@@ -540,3 +542,7 @@ $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
+
+a {
+  color: $primary-color;
+}

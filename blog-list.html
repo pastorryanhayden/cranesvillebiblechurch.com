@@ -23,7 +23,8 @@ layout: default
                 <p class="description"><strong>Posted On:</strong> {{post.date_added| date: "%B %-d, %Y" }} • <strong>Author:</strong> {{post.author_name}} • <strong>Category:</strong> {{post.categories}} </p>
             </div><!--/entry-text-->
             <div class="entry-description">
-                {{post.body_content | truncate: 75 }}
+                {{post.body_content | markdownify | truncatewords: 20 }}
+                <br>
                 <a href="{{ post.title | datapage_url: 'blog-posts' | prepend: site.baseurl | prepend: site.url }}" class="button">Read More</a>
             </div><!--/entry-description-->
             </div><!//entry-text-->

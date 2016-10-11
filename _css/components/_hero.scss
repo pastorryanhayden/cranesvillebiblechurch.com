@@ -1,7 +1,7 @@
 .hero {
     background: url(../bible3.jpg) no-repeat top center;
-    min-height: 30vh;
-    background-size: cover;
+    // min-height: 30vh;
+    background-size: cover; 
     padding-top: 50px;
     @include breakpoint(medium){
         padding-top: 80px;

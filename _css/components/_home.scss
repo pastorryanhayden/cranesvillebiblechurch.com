@@ -59,6 +59,7 @@ $sans-serif: $body-font-family;
 
 .homeMinistries {
     background: $secondary-color;
+    font-family: $body-font-family;
 
 h1 {
     color: $white;
@@ -66,6 +67,7 @@ h1 {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: $body-font-family;
 }
 
 }
@@ -83,7 +85,7 @@ h1 {
 .ministry:nth-child(3) .ministry2 {
     width: 100%;
     height: 100%;
-    background-color: rgba($light-gray, .5);
+    background-color: rgba($warning-color, .5);
 }
 
 .ministry__wrapper {
@@ -133,11 +135,13 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: $body-font-family;
 
     h2 {
         width: 100%;
         color: $medium-gray;
         font-weight: 700;
+        font-family: $body-font-family;
     }
 }
 .homeEvents__explanation {
