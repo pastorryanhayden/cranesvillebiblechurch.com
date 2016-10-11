@@ -6,6 +6,7 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import 'https://fonts.googleapis.com/css?family=Martel';
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
@@ -4380,14 +4381,17 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
+a {
+  color: #319826; }
+
 header {
-  background: #0e0b08; }
+  background: #e6e6e6; }
 
 .infoBar {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  color: #fefefe;
+  color: #2c2e40;
   display: flex;
   align-items: center; }
   .infoBar h1 {
@@ -4400,9 +4404,9 @@ header {
         flex-shrink: 2; } }
   .infoBar h1 a {
     text-indent: -5000px;
-    background: url(http://storage.biblebaptistmattoon.org/media/logoblue.png) no-repeat center center;
+    background: url(../logo.png) no-repeat center center;
     width: 367px;
-    height: 65px;
+    height: 78px;
     line-height: 65px;
     display: block;
     margin-left: 20px;
@@ -4423,7 +4427,7 @@ header {
       line-height: 20px;
       font-size: 13px; }
     .infoBar .service-times li span {
-      color: #4a90e2;
+      color: #319826;
       margin-left: 35px; }
   .infoBar .contact {
     display: none; }
@@ -4444,7 +4448,7 @@ header {
   @media screen and (min-width: 45.375em) {
     .MainNavigation {
       display: block;
-      background: linear-gradient(-1deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%) rgba(255, 255, 255, 0.89); } }
+      background: #5C3F23; } }
   .MainNavigation ul.dropdown.menu {
     display: flex;
     justify-content: space-between;
@@ -4452,22 +4456,22 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .MainNavigation ul li a {
-    color: #0e0b08;
+    color: #fefefe;
     font-size: 17px;
     font-weight: 600;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Martel", serif; }
 
 .MainNavigation ul li ul li a {
-  color: #0c0e0d; }
+  color: #2c2e40; }
 
 .MobileNavigation {
-  background: linear-gradient(-1deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%) rgba(255, 255, 255, 0.89);
+  background: #5C3F23;
   padding-right: 30px;
   text-align: right; }
   .MobileNavigation button {
     color: #fefefe;
     font-size: 30px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Martel", serif;
     line-height: 50px;
     text-transform: uppercase; }
   @media screen and (min-width: 45.375em) {
@@ -5635,21 +5639,20 @@ header {
   content: "\f21a"; }
 
 .hero {
-  background: url(http://storage.biblebaptistmattoon.org/media/hero.jpg) no-repeat top center;
-  min-height: 80vh;
+  background: url(../bible3.jpg) no-repeat top center;
   background-size: cover;
   padding-top: 50px; }
   @media screen and (min-width: 40em) {
     .hero {
-      padding-top: 100px; } }
+      padding-top: 80px; } }
   .hero p {
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     color: #fefefe; }
 
 .hero__box {
   width: 90%;
-  min-height: 700px;
+  min-height: 200px;
   background: rgba(14, 11, 8, 0.8);
   color: #fefefe;
   margin-left: auto;
@@ -5663,7 +5666,7 @@ header {
   @media screen and (min-width: 40em) {
     .hero__box {
       width: 629px;
-      min-height: 700px; } }
+      min-height: 200px; } }
 
 .hero__box h3 {
   padding-top: 50px;
@@ -5705,15 +5708,15 @@ h3.seek {
     transition: box-shadow 200ms ease-out;
     border-radius: 0;
     margin-bottom: 1rem;
-    border-radius: 30px; }
+    border-radius: 20px; }
     .currentSeries__series a img:hover, .currentSeries__series a img:focus {
-      box-shadow: 0 0 6px 1px rgba(74, 144, 226, 0.5); }
+      box-shadow: 0 0 6px 1px rgba(49, 152, 38, 0.5); }
   .currentSeries__series p {
     font-size: 16px;
     margin-bottom: 0;
     margin-top: 0;
     line-height: 16px;
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Martel", serif; }
   .currentSeries__series h3 a {
     font-style: italic;
     font-size: 20px;
@@ -5728,7 +5731,7 @@ h3.seek {
 .currentSeries__explanation {
   width: 100%;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Martel", serif;
   padding-left: 50px;
   padding-right: 50px;
   font-style: italic; }
@@ -5738,27 +5741,29 @@ h3.seek {
   background-color: #0e0b08; }
 
 .homeMinistries {
-  background: #303633; }
+  background: #5C3F23;
+  font-family: "Martel", serif; }
   .homeMinistries h1 {
     color: #fefefe;
     font-size: 30px;
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    font-family: "Martel", serif; }
 
 .ministry2 {
   width: 100%;
-  background-color: rgba(74, 144, 226, 0.5); }
+  background-color: rgba(49, 152, 38, 0.5); }
 
 .ministry:nth-child(2) .ministry2 {
   width: 100%;
   height: 100%;
-  background-color: rgba(48, 54, 51, 0.5); }
+  background-color: rgba(92, 63, 35, 0.5); }
 
 .ministry:nth-child(3) .ministry2 {
   width: 100%;
   height: 100%;
-  background-color: rgba(230, 230, 230, 0.5); }
+  background-color: rgba(75, 78, 109, 0.5); }
 
 .ministry__wrapper {
   max-width: 1200px;
@@ -5782,7 +5787,7 @@ h3.seek {
     text-transform: uppercase;
     font-weight: 700; }
   .ministry__wrapper2 a.button.hollow:hover {
-    color: #303633;
+    color: #B8B8AD;
     background: #fefefe; }
 
 .ministry:nth-child(even) .ministry__wrapper {
@@ -5799,11 +5804,13 @@ h3.seek {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  font-family: "Martel", serif; }
   .homeEvents h2 {
     width: 100%;
-    color: #303633;
-    font-weight: 700; }
+    color: #B8B8AD;
+    font-weight: 700;
+    font-family: "Martel", serif; }
 
 .homeEvents__explanation {
   max-width: 300px;
@@ -5846,14 +5853,14 @@ h3.seek {
 .quickLinks li a {
   text-align: center;
   font-size: 30px;
-  color: #303633; }
+  color: #B8B8AD; }
 
 .quickLinks li a:hover {
-  color: #4a90e2; }
+  color: #319826; }
 
 .quickLinks li a i {
   display: block;
-  border: 2px solid #303633;
+  border: 2px solid #B8B8AD;
   border-radius: 200px;
   width: 160px;
   height: 160px;
@@ -5865,7 +5872,7 @@ h3.seek {
   text-align: center; }
 
 .quickLinks li a:hover i {
-  border-color: #4a90e2; }
+  border-color: #319826; }
 
 .aboutPage__Title {
   height: 300px;
@@ -5877,7 +5884,7 @@ h3.seek {
   justify-content: center; }
 
 .aboutPage__Title h1 {
-  background: rgba(74, 144, 226, 0.8);
+  background: rgba(33, 153, 232, 0.8);
   width: 100%;
   margin-bottom: 0; }
 
@@ -5905,7 +5912,7 @@ h3.seek {
     margin-right: auto;
     max-width: 75%; }
     .aboutPage__Content img:hover, .aboutPage__Content img:focus {
-      box-shadow: 0 0 6px 1px rgba(74, 144, 226, 0.5); }
+      box-shadow: 0 0 6px 1px rgba(49, 152, 38, 0.5); }
 
 .ministriesPage__Title {
   height: 300px;
@@ -5918,7 +5925,7 @@ h3.seek {
   justify-content: flex-end; }
 
 .ministriesPage__Title h1 {
-  background: rgba(74, 144, 226, 0.8);
+  background: rgba(33, 153, 232, 0.8);
   width: 100%;
   margin-bottom: 0; }
 
@@ -5953,7 +5960,7 @@ h3.seek {
     clear: both; }
 
 .ministryInfo {
-  background: #4a90e2;
+  background: #2199e8;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -6016,7 +6023,7 @@ h3.seek {
       float: left;
       padding-left: 0.625rem;
       padding-right: 0.625rem;
-      border-right: 1px solid #0e0b08;
+      border-right: 1px solid #333533;
       min-height: 90vh; } }
   @media screen and (min-width: 64em) and (min-width: 40em) {
     .ministriesPage__Content-main-content {
@@ -6040,14 +6047,14 @@ h3.seek {
         margin-right: auto;
         max-width: 100%; }
         .ministriesPage__Content-main-content img:hover, .ministriesPage__Content-main-content img:focus {
-          box-shadow: 0 0 6px 1px rgba(74, 144, 226, 0.5); } }
+          box-shadow: 0 0 6px 1px rgba(49, 152, 38, 0.5); } }
 
 .ministriesPage__Content-secondary-content {
   width: 100%;
   float: left;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
-  border-top: 1px solid #0e0b08;
+  border-top: 1px solid #333533;
   padding-top: 30px; }
   @media screen and (min-width: 40em) {
     .ministriesPage__Content-secondary-content {
@@ -6071,10 +6078,10 @@ h3.seek {
       .ministriesPage__Content-secondary-content:last-child:not(:first-child) {
         float: right; } }
   .ministriesPage__Content-secondary-content h3 {
-    color: #303633;
+    color: #2199e8;
     font-weight: bold;
     font-size: 20px;
-    border-bottom: 1px solid #303633; }
+    border-bottom: 1px solid #2199e8; }
   .ministriesPage__Content-secondary-content .ministriesLogo, .ministriesPage__Content-secondary-content .ministriesCalendar, .ministriesPage__Content-secondary-content .ministriesPhotos {
     margin-bottom: 40px; }
 
@@ -6089,18 +6096,18 @@ h3.seek {
   width: auto; }
   .ministriesPage .event-date .event-month {
     margin: 0;
-    background: #303633;
+    background: #2199e8;
     padding: 0.3rem .6rem;
     text-align: center;
     color: #fefefe;
     font-size: .8rem; }
   .ministriesPage .event-date .event-day {
     margin: 0;
-    border: 1px solid #303633;
+    border: 1px solid #2199e8;
     padding: .4rem .6rem;
     text-align: center;
     font-size: .8rem;
-    color: #303633; }
+    color: #2199e8; }
 
 .ministriesPage .ministriesPhotos .galleryWrapper {
   display: flex;
@@ -6120,7 +6127,7 @@ h3.seek {
     margin-top: -10px;
     padding: 0; }
     .ministriesPage .event-desc .event-desc-header a {
-      color: #303633;
+      color: #2199e8;
       font-size: 20px; }
   .ministriesPage .event-desc .event-desc-detail {
     margin: 0 0 0.25rem;
@@ -6134,7 +6141,7 @@ h3.seek {
     margin: 0; }
 
 footer {
-  background: #0e0b08; }
+  background: #212331; }
 
 .footer-wrapper {
   max-width: 1200px;
@@ -6175,7 +6182,7 @@ footer .address li {
   font-size: 12px; }
 
 footer .footer-sign-in {
-  color: #303633; }
+  color: #B8B8AD; }
 
 .welcomeHeader {
   min-height: 400px;
@@ -6187,7 +6194,7 @@ footer .footer-sign-in {
   .welcomeHeader h1 {
     padding-top: 30px;
     padding-bottom: 30px;
-    background: rgba(74, 144, 226, 0.7);
+    background: rgba(33, 153, 232, 0.7);
     text-align: center;
     margin-bottom: 0;
     color: #fefefe;
@@ -6215,7 +6222,7 @@ footer .footer-sign-in {
   background: url(http://storage.biblebaptistmattoon.org/media/bible3.jpg) no-repeat center center;
   background-size: cover; }
   .welcomeServices .wrapper {
-    background: rgba(48, 54, 51, 0.85);
+    background: rgba(33, 153, 232, 0.85);
     height: 100%; }
   .welcomeServices .content {
     max-width: 1200px;
@@ -6251,7 +6258,7 @@ footer .footer-sign-in {
 
 .welcomeKids h2 {
   font-weight: bold;
-  color: #4a90e2; }
+  color: #2199e8; }
 
 .welcomeKids p {
   max-width: 600px; }
@@ -6264,13 +6271,13 @@ footer .footer-sign-in {
   flex-wrap: wrap; }
   .welcomeKids .photos img {
     border-radius: 200px;
-    border: 2px solid #4a90e2;
+    border: 2px solid #2199e8;
     width: 150px;
     height: 150px;
     margin-bottom: 20px; }
 
 .welcomeLocation {
-  background: #303633;
+  background: #B8B8AD;
   color: #fefefe; }
   .welcomeLocation .content {
     max-width: 1200px;
@@ -6298,7 +6305,7 @@ footer .footer-sign-in {
     border-bottom: 2px solid #e6e6e6;
     margin-bottom: 20px; }
     .blog-list-page .header h2 {
-      color: #4a90e2;
+      color: #319826;
       font-weight: bold;
       text-align: center; }
     .blog-list-page .header h3 {
@@ -6582,7 +6589,7 @@ footer .footer-sign-in {
   display: flex;
   justify-content: space-between;
   padding-bottom: 5px;
-  border-bottom: 1px solid #27213C;
+  border-bottom: 1px solid #5C3F23;
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
@@ -6592,8 +6599,8 @@ footer .footer-sign-in {
   margin-top: 30px; }
   .sermonsCategoryList h3 {
     font-size: 25px;
-    border-bottom: 1px solid #4a90e2;
-    color: #4a90e2; }
+    border-bottom: 1px solid #2199e8;
+    color: #2199e8; }
   .sermonsCategoryList ul {
     margin: 0;
     list-style-type: none; }
@@ -6650,7 +6657,7 @@ footer .footer-sign-in {
   margin-bottom: 40px; }
 
 .singleSermonHeader__teaser {
-  border-bottom: 1px solid #27213C; }
+  border-bottom: 1px solid #5C3F23; }
   .singleSermonHeader__teaser .singleSermonHeader__title {
     display: flex;
     justify-content: space-between; }
@@ -6676,7 +6683,7 @@ footer .footer-sign-in {
     display: flex;
     justify-content: space-between;
     padding-bottom: 5px;
-    border-bottom: 1px solid #27213C;
+    border-bottom: 1px solid #5C3F23;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
@@ -6690,7 +6697,7 @@ footer .footer-sign-in {
   margin-left: 8.33333%;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #27213C;
+  border-bottom: 1px solid #5C3F23;
   margin-bottom: 30px; }
   @media screen and (min-width: 40em) {
     .singleSermonContent {
@@ -6734,14 +6741,14 @@ footer .footer-sign-in {
   text-align: center;
   margin-top: 40px;
   font-weight: bold;
-  color: #303633; }
+  color: #2199e8; }
 
 .singleSeriesHeader__mainImage {
   margin-top: 40px;
   margin-bottom: 40px; }
 
 .singleSeriesHeader__teaser {
-  border-bottom: 1px solid #27213C; }
+  border-bottom: 1px solid #5C3F23; }
   .singleSeriesHeader__teaser .singleSeriesHeader__title {
     display: flex;
     justify-content: space-between; }
@@ -6767,7 +6774,7 @@ footer .footer-sign-in {
     display: flex;
     justify-content: space-between;
     padding-bottom: 5px;
-    border-bottom: 1px solid #27213C;
+    border-bottom: 1px solid #5C3F23;
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
@@ -6781,7 +6788,7 @@ footer .footer-sign-in {
   margin-left: 8.33333%;
   padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #27213C;
+  border-bottom: 1px solid #5C3F23;
   margin-bottom: 30px; }
   @media screen and (min-width: 40em) {
     .singleSeriesContent {
@@ -6882,7 +6889,7 @@ footer .footer-sign-in {
 
 .calendar-list .calendar-header {
   width: 100%;
-  background: #303633;
+  background: #319826;
   color: #ffffff;
   min-height: 165px; }
   .calendar-list .calendar-header .wrapper {
@@ -6913,7 +6920,7 @@ footer .footer-sign-in {
 
 .calendar-list .calendar-list-item {
   max-width: 960px;
-  border-bottom: 1px dotted #303633;
+  border-bottom: 1px dotted #2199e8;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -6948,9 +6955,9 @@ footer .footer-sign-in {
     .calendar-list .calendar-list-item .details h3 a {
       font-size: 30px;
       font-weight: bold;
-      color: #ff220c; }
+      color: #2199e8; }
     .calendar-list .calendar-list-item .details .details-inner {
-      background: #cee1f7;
+      background: #acd9f6;
       display: flex;
       padding: 15px; }
       .calendar-list .calendar-list-item .details .details-inner .details-description {
@@ -7177,7 +7184,7 @@ body {
   .aboutContent__content__pageHeader h1 {
     padding-top: 20px; }
   .aboutContent__content__pageHeader h1 span {
-    color: #4a90e2; }
+    color: #319826; }
 
 .aboutContent__content__content {
   padding-top: 20px;
@@ -7245,7 +7252,7 @@ div.leader {
     margin-left: 20px;
     margin-bottom: 10px; }
   div.leader h5.role {
-    border-bottom: 1px solid #0e0b08;
+    border-bottom: 1px solid #333533;
     margin-bottom: 20px;
     font-style: italic; }
   div.leader h3 {
@@ -7270,5 +7277,38 @@ div.belief {
     border-bottom: none;
     margin-bottom: none; }
   div.belief h3 {
-    border-bottom: 1px solid #4a90e2;
+    border-bottom: 1px solid #319826;
     padding-bottom: 3px; }
+
+.gallery-page {
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center; }
+  .gallery-page h2 {
+    color: #319826; }
+  .gallery-page h3 {
+    color: #5C3F23;
+    border-bottom: 1px solid #5C3F23;
+    margin-bottom: 20px; }
+  .gallery-page .gallery-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px; }
+    .gallery-page .gallery-group a.gallery {
+      margin-bottom: 10px; }
+
+a {
+  color: #319826; }
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #319826 transparent transparent; }
+
+.button {
+  background-color: #319826; }
+
+.button:hover {
+  background-color: #1d5b17; }
