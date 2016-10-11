@@ -6141,7 +6141,7 @@ h3.seek {
     margin: 0; }
 
 footer {
-  background: #0e0b08; }
+  background: #212331; }
 
 .footer-wrapper {
   max-width: 1200px;
@@ -6889,7 +6889,7 @@ footer .footer-sign-in {
 
 .calendar-list .calendar-header {
   width: 100%;
-  background: #2199e8;
+  background: #319826;
   color: #ffffff;
   min-height: 165px; }
   .calendar-list .calendar-header .wrapper {
@@ -7279,6 +7279,27 @@ div.belief {
   div.belief h3 {
     border-bottom: 1px solid #319826;
     padding-bottom: 3px; }
+
+.gallery-page {
+  max-width: 1000px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center; }
+  .gallery-page h2 {
+    color: #319826; }
+  .gallery-page h3 {
+    color: #5C3F23;
+    border-bottom: 1px solid #5C3F23;
+    margin-bottom: 20px; }
+  .gallery-page .gallery-group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px; }
+    .gallery-page .gallery-group a.gallery {
+      margin-bottom: 10px; }
 
 a {
   color: #319826; }
