@@ -2,9 +2,7 @@
 title: Cranesville Bible Church
 # Give a brief description of the church
 description: > # this means to ignore newlines until "baseurl:"
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus blanditiis odio corrupti, 
-    illum architecto consequuntur, quaerat unde repudiandae qui temporibus! Fuga maxime molestiae hic impedit 
-    sit sint perferendis rerum unde.
+    Cranesville Bible Church is a Bible preaching church located in Cranesville, PA.
 # Leave this alone
 baseurl: "" # the subpath of your site, e.g. /blog
 # Change this to the domain when you are finished and ready to publish.
